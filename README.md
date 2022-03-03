@@ -13,8 +13,6 @@ jQuery-like extensions for AngularJS embedded jQLite
 [min]: https://raw.github.com/mgcrea/angular-jquery/master/dist/angular-jquery.min.js
 [max]: https://raw.github.com/mgcrea/angular-jquery/master/dist/angular-jquery.js
 
-In your web page:
-
 In your app.js:
 
 ```js
