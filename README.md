@@ -6,7 +6,7 @@ jQuery-like extensions for AngularJS embedded jQLite
 
 ## Getting Started
 
-+ Install with bower, `bower install angular-jquery --save`
++ Install with bower, `npm install angular-jquery --save`
 
 + Or download the [production][min] or the [development][max] version.
 
@@ -15,14 +15,11 @@ jQuery-like extensions for AngularJS embedded jQLite
 
 In your web page:
 
-```html
-<script src="angular.js"></script>
-<script src="dist/angular-jquery.min.js"></script>
-```
-
 In your app.js:
 
 ```js
+import 'angular-jquery';
+
 angular.module('myApp', ['mgcrea.jquery'])
 ```
 
